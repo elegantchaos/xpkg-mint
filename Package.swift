@@ -12,6 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/elegantchaos/XPkgPackage", from:"1.0.5"),
+        .package(url: "https://github.com/elegantchaos/xpkg-homebrew", from:"1.0.5"),
     ],
     targets: [
         .target(
